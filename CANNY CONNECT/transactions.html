@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./transactions.css">
+    <link rel="stylesheet" href="">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transactions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+
+    <header class="logo-and-header" id="logo-and-header">
+        <div class="logo" id="logo">
+          <i class="fas fa-bars" id="menu-btn" onclick="navbar()"></i>
+          <img src="./logo.jpg" alt="">
+        </div>
+        <div class="header">
+          <div class="navigation--items">
+                  <a href="./home.html" class="navigation"><i class="fa-solid fa-check"></i> Home</a>
+                  <a href="./transactions.html" class="navigation"><i class="fa-brands fa-opencart"></i> Tansactions</a>
+                  <a href="./fund.html" class="navigation"><i class="fa-solid fa-credit-card"></i> Fund Wallet</a>
+                  <a href="./airtime.html" class="navigation"><i class="fa-solid fa-phone-flip"></i> Airtime</a>
+                  <a href="./data.html" class="navigation"><i class="fa-solid fa-wifi"></i> Data</a>
+                  <a href="./cable.html" class="navigation"><i class="fa-solid fa-tv"></i> Cable</a>
+                  <a href="./bills.html" class="navigation"><i class="fa-regular fa-lightbulb"></i> Bills</a>
+                  <a href="./exams.html" class="navigation"><i class="fa-solid fa-barcode"></i> Exams</a>
+                  <div class="dropdown">Others
+                    <div class="dropdown--content">
+                      <a href="">Bulk SMS</a>
+                      <a href="">Airtime-cash</a>
+                      <a href="">Recharge card printing</a>
+                      <a href="">Withdrawal</a>
+                      <a href="">Simle</a>
+                      <a href="">Developers</a>
+                      <a href="">Account</a>
+                      <a href="">Referral</a>
+                    </div>
+                  </div>
+          </div>
+          <button class="logout">
+                <i class="fa-solid fa-power-off"></i>
+                <a href="">Logout</a>
+          </button>
+        </div>
+      </header>
+    
+    
+      <!--mobile-navigation-->
+    
+    
+    
+      <nav class="mobile-navbar" id="mobile-navbar">
+        <div class="mobile-navbar-items">
+                <div class="mobile-navbar-header">
+                  <h3>Menu</h3>
+                  <i class="fas fa-times" id="close" onclick="navbar()"></i>
+                </div>
+                <a href="./home.html" class="mobile-navigation"><i class="fa-solid fa-check"></i> Home</a>
+                <a href="./transactions.html" class="mobile-navigation"><i class="fa-brands fa-opencart"></i> Tansactions</a>
+                <a href="./fund.html" class="mobile-navigation"><i class="fa-solid fa-credit-card"></i> Fund Wallet</a>
+                <a href="./airtime.html" class="mobile-navigation"><i class="fa-solid fa-phone-flip"></i> Airtime</a>
+                <a href="./data.html" class="mobile-navigation"><i class="fa-solid fa-wifi"></i> Data</a>
+                <a href="./cable.html" class="mobile-navigation"><i class="fa-solid fa-tv"></i> Cable</a>
+                <a href="./bills.html" class="mobile-navigation"><i class="fa-regular fa-lightbulb"></i> Bills</a>
+                <a href="./exams.html" class="mobile-navigation"><i class="fa-solid fa-barcode"></i> Exams</a>
+                <div class="mobile-dropdown">Others
+                  <div class="mobile-dropdown-content">
+                    <a href="">Bulk SMS</a>
+                    <a href="">Airtime-cash</a>
+                    <a href="">Recharge card printing</a>
+                    <a href="">Withdrawal</a>
+                    <a href="">Simle</a>
+                    <a href="">Developers</a>
+                    <a href="">Account</a>
+                    <a href="">Referral</a>
+                  </div>
+                </div>
+        </div>
+        <button class="mobile-logout">
+              <i class="fa-solid fa-power-off"></i>
+              Logout
+        </button>
+      </nav>
+
+
+
+    <div class="container">
+        <section>
+            <h1>Transaction history</h1>
+    
+            <hr>
+    
+            <div class="desc">
+                <p class="grey">description:</p>
+                <p class="blue">MTN 2GB SME ( 1MONTH VALIDITY) SME to 08138957283</p>
+            </div>
+    
+            <div class="type">
+                <p class="grey">Type:</p>
+                <p class="red">Debit</p>
+            </div>
+    
+            <div class="bal">
+                <p class="grey">Initial Bal:</p>
+                <p class="red">₦10006</p>
+                <p class="grey">|</p>
+                <p class="grey">Final Bal:</p>
+                <p class="green">₦9576</p>
+            </div>
+    
+            <div class="date">
+                <p class="grey">Date / Time:</p>
+                <p class="blue">Nov. 25, 2022, 12:03 pm</p>
+            </div>
+    
+            <div class="status">
+                <p class="grey">status:</p>
+                <span>Success</span>
+            </div>
+    
+            <a href="" class="view">
+                <i class="fa-regular fa-eye"></i>view
+            </a>
+    
+            <hr class="last">
+
+            <div class="desc">
+                <p class="grey">description:</p>
+                <p class="blue">MTN 2GB SME ( 1MONTH VALIDITY) SME to 08138957283</p>
+            </div>
+    
+            <div class="type">
+                <p class="grey">Type:</p>
+                <p class="red">Debit</p>
+            </div>
+    
+            <div class="bal">
+                <p class="grey">Initial Bal:</p>
+                <p class="red">₦10006</p>
+                <p class="grey">|</p>
+                <p class="grey">Final Bal:</p>
+                <p class="green">₦9576</p>
+            </div>
+    
+            <div class="date">
+                <p class="grey">Date / Time:</p>
+                <p class="blue">Nov. 25, 2022, 12:03 pm</p>
+            </div>
+    
+            <div class="status">
+                <p class="grey">status:</p>
+                <span>Success</span>
+            </div>
+    
+            <a href="" class="view">
+                <i class="fa-regular fa-eye"></i>view
+            </a>
+    
+            <hr class="last">
+
+            <div class="desc">
+                <p class="grey">description:</p>
+                <p class="blue">MTN 2GB SME ( 1MONTH VALIDITY) SME to 08138957283</p>
+            </div>
+    
+            <div class="type">
+                <p class="grey">Type:</p>
+                <p class="red">Debit</p>
+            </div>
+    
+            <div class="bal">
+                <p class="grey">Initial Bal:</p>
+                <p class="red">₦10006</p>
+                <p class="grey">|</p>
+                <p class="grey">Final Bal:</p>
+                <p class="green">₦9576</p>
+            </div>
+    
+            <div class="date">
+                <p class="grey">Date / Time:</p>
+                <p class="blue">Nov. 25, 2022, 12:03 pm</p>
+            </div>
+    
+            <div class="status">
+                <p class="grey">status:</p>
+                <span>Success</span>
+            </div>
+    
+            <a href="" class="view">
+                <i class="fa-regular fa-eye"></i>view
+            </a>
+    
+            <hr class="last">
+
+            <div class="desc">
+                <p class="grey">description:</p>
+                <p class="blue">MTN 2GB SME ( 1MONTH VALIDITY) SME to 08138957283</p>
+            </div>
+    
+            <div class="type">
+                <p class="grey">Type:</p>
+                <p class="red">Debit</p>
+            </div>
+    
+            <div class="bal">
+                <p class="grey">Initial Bal:</p>
+                <p class="red">₦10006</p>
+                <p class="grey">|</p>
+                <p class="grey">Final Bal:</p>
+                <p class="green">₦9576</p>
+            </div>
+    
+            <div class="date">
+                <p class="grey">Date / Time:</p>
+                <p class="blue">Nov. 25, 2022, 12:03 pm</p>
+            </div>
+    
+            <div class="status">
+                <p class="grey">status:</p>
+                <span>Success</span>
+            </div>
+    
+            
+            <a href="" class="view">
+                <i class="fa-regular fa-eye"></i>view
+            </a>
+    
+            <hr class="last">
+        </section>
+    </div>
+
+    <p class="rights"><i class="fa-regular fa-copyright"></i> 2022 all rights reserved.</p>
+</body>
+<script src="./transactions.js"></script>
+</html>

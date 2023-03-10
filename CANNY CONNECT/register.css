@@ -1,0 +1,163 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition: all .2s linear;
+}
+
+
+:root{
+  --green: #27ae60;
+  --black: #192a56;
+  --light-color: #666;
+  --orange: #ffa500;
+  --box-shadow: 5px 5px rgba(255, 255, 255, 0.2);
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-color);
+    overflow-x: hidden;
+}
+
+section{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    width: 40%;
+    height: 100%;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+form .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+form .logo img{
+    width: 15%;
+    height: 30px;
+    position: relative;
+    right: 20px;
+    border: 1px solid var(--black);
+}
+
+form .logo h1{
+    font-size: 30px;
+    color: var(--black);
+}
+
+
+
+form a{
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+form .old{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+form .old a{
+    color: blue;
+}
+
+form .rights{
+    margin-top:100px;
+    padding-bottom: 30px;
+    font-size: 17px;
+    align-self: center;
+    opacity: .7;
+}
+
+form .Create{
+    align-self: center;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--black);
+    color: white;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    margin-top: 50px;
+}
+
+section form .text input{
+ height: 40px;
+ border: transparent;
+ margin-left: 30px;
+}
+
+
+.text input::placeholder{
+    opacity: .5;
+    font-size: 20px;
+}
+
+.text i{
+    color: var(--black);
+    border: none;
+}
+
+@media (max-width:750px){
+
+    section{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    section form{
+        width: 80%;
+    }
+
+    form .text{
+        width: 90%;
+    }
+
+    form .text input{
+        width: 90%;
+    }
+
+    form .text input::placeholder{
+        font-size: 15px;
+    }
+
+    form .new{
+        width: 95%;
+        font-size: 15px;
+    }
+
+
+}

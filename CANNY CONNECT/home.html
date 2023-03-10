@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./home.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <script src="https://kit.fontawesome.com/76d27a89aa.js" crossorigin="anonymous"></script>
+</head>
+<body>  
+  
+  <header class="logo-and-header" id="logo-and-header">
+    <div class="logo" id="logo">
+      <i class="fas fa-bars" id="menu-btn" onclick="navbar()"></i>
+      <img src="./logo.jpg" alt="">
+    </div>
+    <div class="header">
+      <div class="navigation--items">
+              <a href="./home.html" class="navigation"><i class="fa-solid fa-check"></i> Home</a>
+              <a href="./transactions.html" class="navigation"><i class="fa-brands fa-opencart"></i> Tansactions</a>
+              <a href="./fund.html" class="navigation"><i class="fa-solid fa-credit-card"></i> Fund Wallet</a>
+              <a href="./airtime.html" class="navigation"><i class="fa-solid fa-phone-flip"></i> Airtime</a>
+              <a href="./data.html" class="navigation"><i class="fa-solid fa-wifi"></i> Data</a>
+              <a href="./cable.html" class="navigation"><i class="fa-solid fa-tv"></i> Cable</a>
+              <a href="./bills.html" class="navigation"><i class="fa-regular fa-lightbulb"></i> Bills</a>
+              <a href="./exams.html" class="navigation"><i class="fa-solid fa-barcode"></i> Exams</a>
+              <div class="dropdown">Others
+                <div class="dropdown--content">
+                  <a href="">Bulk SMS</a>
+                  <a href="">Airtime-cash</a>
+                  <a href="">Recharge card printing</a>
+                  <a href="">Withdrawal</a>
+                  <a href="">Simle</a>
+                  <a href="">Developers</a>
+                  <a href="">Account</a>
+                  <a href="">Referral</a>
+                </div>
+              </div>
+      </div>
+      <button class="logout">
+            <i class="fa-solid fa-power-off"></i>
+            <a href="">Logout</a>
+      </button>
+    </div>
+  </header>
+
+
+  <!--mobile-navigation-->
+
+
+
+  <nav class="mobile-navbar" id="mobile-navbar">
+    <div class="mobile-navbar-items">
+            <div class="mobile-navbar-header">
+              <h3>Menu</h3>
+              <i class="fas fa-times" id="close" onclick="navbar()"></i>
+            </div>
+            <a href="./home.html" class="mobile-navigation"><i class="fa-solid fa-check"></i> Home</a>
+            <a href="./transactions.html" class="mobile-navigation"><i class="fa-brands fa-opencart"></i> Tansactions</a>
+            <a href="./fund.html" class="mobile-navigation"><i class="fa-solid fa-credit-card"></i> Fund Wallet</a>
+            <a href="./airtime.html" class="mobile-navigation"><i class="fa-solid fa-phone-flip"></i> Airtime</a>
+            <a href="./data.html" class="mobile-navigation"><i class="fa-solid fa-wifi"></i> Data</a>
+            <a href="./cable.html" class="mobile-navigation"><i class="fa-solid fa-tv"></i> Cable</a>
+            <a href="./bills.html" class="mobile-navigation"><i class="fa-regular fa-lightbulb"></i> Bills</a>
+            <a href="./exams.html" class="mobile-navigation"><i class="fa-solid fa-barcode"></i> Exams</a>
+            <div class="mobile-dropdown">Others
+              <div class="mobile-dropdown-content">
+                <a href="">Bulk SMS</a>
+                <a href="">Airtime-cash</a>
+                <a href="">Recharge card printing</a>
+                <a href="">Withdrawal</a>
+                <a href="">Simle</a>
+                <a href="">Developers</a>
+                <a href="">Account</a>
+                <a href="">Referral</a>
+              </div>
+            </div>
+    </div>
+    <button class="mobile-logout">
+          <i class="fa-solid fa-power-off"></i>
+          Logout
+    </button>
+  </nav>
+
+
+  
+
+  <!--mobile container start here-->
+
+  <div class="mobile-container">
+    <div class="mobile-wrapper">
+      <div class="wallet">
+        <div class="blue-card">
+          <div class="avater-wrapper">
+            <button class="avater">
+              <img src="./avater.png" alt="">
+              <p>Canny</p>
+            </button>
+      
+            <button class="fund">Fund Wallet</button>
+          </div>
+    
+          <div class="balance-wrapper">
+            <p>Wallet Balance</p>
+            <p>&#8358;10,000</p>
+          </div>
+        </div>
+    
+        <div class="credit-debit-wrapper">
+          <div class="credit-wrapper">
+            <div class="chevron-cred">
+              <p>Credit</p>
+              <i class="fa-solid fa-chevron-up"></i>
+            </div>
+            <div class="credit">11</div>
+          </div>
+      
+          <div class="debit-wrapper">
+            <div class="chevron-debt">
+              <p>Debit</p>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="debit">319</div>
+          </div>
+        </div>
+    
+        <div class="history">
+          <div class="dot"></div>
+          <p>Transaction History</p>
+        </div>
+    
+        <table>
+          <tr>
+            <td class="green">Success</td>
+            <td class="number">339</td>
+          </tr>
+          <tr>
+            <td class="yello">Pending</td>
+            <td class="number">0</td>
+          </tr>
+          <tr>
+            <td class="red">cancelled</td>
+            <td class="number">0</td>
+          </tr>
+          <tr>
+            <td class="blue">Referral Commission</td>
+            <td class="number">&#8358;900</td>
+          </tr>
+        </table>
+    
+        <a class="view" href="./transactions.html">View Transaction(s)</a>
+      </div>
+  
+      <div class="card">
+        <div class="bank-details">
+          <p>Pro</p>
+          <p>7492254135</p>
+        </div>
+  
+        <span class="uba">UBA Bank</span>
+  
+        <div class="virtual">
+          <img src="./Mastercard_2019_logo.svg.png" alt="">
+          <button>Virtual Account</button>
+        </div>
+      </div>
+    </div>
+
+    <!--Quick Links start here-->
+
+    <div class="quick-container">
+      <h6>Quick Links</h6>
+  
+      <div class="quick-links">
+
+        <div class="big-wrapper">
+          <div class="data-wrapper">
+            <a href="">Data Topup</a>
+            <img src="./web.ico" alt="">
+          </div>
+    
+          <div class="airtime-wrapper">
+            <a href="">Airtime Topup</a>
+            <img src="./call.png" alt="">
+          </div>
+        </div>
+  
+        <div class="big-wrapper">
+          <div class="cable-wrapper">
+            <a href="">Cable Sub.</a>
+            <img src="./curved-tv.png" alt="">
+          </div>
+    
+          <div class="bills-wrapper">
+            <a href="">Bills Payment</a>
+            <img src="./bulb.png" alt="">
+          </div>
+        </div>
+  
+        <div class="big-wrapper">
+          <div class="recharge-wrapper">
+            <a href="">Recharge Pin</a>
+            <img src="./printer.png" alt="">
+          </div>
+    
+          <div class="airtime-cash-wrapper">
+            <a href="">Airtime - Cash</a>
+            <img src="./naira.png" alt="">
+          </div>
+        </div>
+  
+        <div class="big-wrapper">
+          <div class="exam-pin-wrapper">
+            <a href="">Exam Pin</a>
+            <img src="./barcode.png" alt="">
+          </div>
+    
+          <div class="bulk-sms-wrapper">
+            <a href="">Bulk SMS</a>
+            <img src="./sms.png" alt="">
+          </div>
+        </div>
+  
+        <div class="gift-card-wrapper">
+          <a href="">Buy/Sell gift cards & BTC</a>
+          <img src="./btc_logo.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--container start here-->
+
+  <div class="container">
+    <div class="wallet">
+      <div class="blue-card">
+        <div class="avater-wrapper">
+          <button class="avater">
+            <img src="./avater.png" alt="">
+            <p>Canny</p>
+          </button>
+    
+          <button class="fund">Fund Wallet</button>
+        </div>
+  
+        <div class="balance-wrapper">
+          <p>Wallet Balance</p>
+          <p>&#8358;10,000</p>
+        </div>
+      </div>
+  
+      <div class="credit-debit-wrapper">
+        <div class="credit-wrapper">
+          <div class="chevron-cred">
+            <p>Credit</p>
+            <i class="fa-solid fa-chevron-up"></i>
+          </div>
+          <div class="credit">11</div>
+        </div>
+    
+        <div class="debit-wrapper">
+          <div class="chevron-debt">
+            <p>Debit</p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="debit">319</div>
+        </div>
+      </div>
+  
+      <div class="history">
+        <div class="dot"></div>
+        <p>Transaction History</p>
+      </div>
+  
+      <table>
+        <tr>
+          <td class="green">Success</td>
+          <td class="number">339</td>
+        </tr>
+        <tr>
+          <td class="yello">Pending</td>
+          <td class="number">0</td>
+        </tr>
+        <tr>
+          <td class="red">cancelled</td>
+          <td class="number">0</td>
+        </tr>
+        <tr>
+          <td class="blue">Referral Commission</td>
+          <td class="number">&#8358;900</td>
+        </tr>
+      </table>
+  
+      <button class="view">View Transaction(s)</button>
+    </div>
+
+    <div class="card">
+      <div class="bank-details">
+        <p>Pro</p>
+        <p>7492254135</p>
+      </div>
+
+      <span class="uba">UBA Bank</span>
+
+      <div class="virtual">
+        <img src="./Mastercard_2019_logo.svg.png" alt="">
+        <button>Virtual Account</button>
+      </div>
+    </div>
+
+    <!--Quick Links start here-->
+
+    <div class="quick-container">
+      <h6>Quick Links</h6>
+  
+      <div class="quick-links">
+
+        <div class="big-wrapper">
+          <div class="data-wrapper">
+            <a href="./data.html">Data Topup</a>
+            <img src="./web.ico" alt="">
+          </div>
+    
+          <div class="airtime-wrapper">
+            <a href="./airtime.html">Airtime Topup</a>
+            <img src="./call.png" alt="">
+          </div>
+        </div>
+  
+        <div class="big-wrapper">
+          <div class="cable-wrapper">
+            <a href="./cable.html">Cable Sub.</a>
+            <img src="./curved-tv.png" alt="">
+          </div>
+    
+          <div class="bills-wrapper">
+            <a href="./bills.html">Bills Payment</a>
+            <img src="./bulb.png" alt="">
+          </div>
+        </div>
+  
+        <div class="big-wrapper">
+          <div class="recharge-wrapper">
+            <a href="">Recharge Pin</a>
+            <img src="./printer.png" alt="">
+          </div>
+    
+          <div class="airtime-cash-wrapper">
+            <a href="">Airtime - Cash</a>
+            <img src="./naira.png" alt="">
+          </div>
+        </div>
+  
+        <div class="big-wrapper">
+          <div class="exam-pin-wrapper">
+            <a href="./exams.html">Exam Pin</a>
+            <img src="./barcode.png" alt="">
+          </div>
+    
+          <div class="bulk-sms-wrapper">
+            <a href="">Bulk SMS</a>
+            <img src="./sms.png" alt="">
+          </div>
+        </div>
+  
+        <div class="gift-card-wrapper">
+          <a href="">Buy/Sell gift cards & BTC</a>
+          <img src="./btc_logo.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="whatsapp">
+      <div class="icon-and-text">
+        <h2>
+          <a href="" class="fab"><i class="fa-brands fa-whatsapp"></i></a>
+        <strong>WhatsApp Group</strong>
+        </h2>
+      </div>
+  
+      <p>Join our WhatsApp group to get latest update and information about our services.</p>
+  
+      <button class="join">JOIN NOW</button>
+    </div>
+  
+    <div class="referral">
+      <h2>Referral</h2>
+      <div class="pix-and-text">
+        <img src="./referral-link.png" alt="">
+        <p>Share out your referral link to people and enjoy ₦0 on their data purchase. <br> You will also earn ₦0 whenever they upgrade their account to any of our packages.</p>
+      </div>
+  
+      <div class="line">
+        <hr>
+      </div>
+  
+      <button class="ref-button">cannyconnect.com.ng/user/register?ref=Canny</button>
+      <div class="copy-button-wrapper">
+        <button class="copy-button">
+          <a href=""><i class="fa-light fa-copy"></i></a>
+          Copy
+        </button>
+      </div>
+    </div>
+  
+    <div class="commission">
+      <h2>Commission</h2>
+      <div class="second-pix-and-text">
+        <img src="./atm-withdraw.jpg" alt="">
+        <p>We appreciate your effort towards getting us new member(s). <br> Below is our reward. Refer more and get more. Thanks.</p>
+      </div>
+  
+      <div class="second-line">
+        <hr>
+      </div>
+  
+      <p class="comm">Commission</p>
+  
+      <button class="commission-button">987.1</button>
+      <div class="withdraw-button-wrapper">
+        <button class="withdraw-button">
+          <a href=""><i class="fa-light fa-copy"></i></a>
+          Withdraw
+        </button>
+      </div>
+    </div>
+  </footer>
+
+
+  <div class="fixed-whatsapp">
+    <img src="./whatsapp.svg" alt="">
+  </div>
+
+  <p class="rights"><i class="fa-regular fa-copyright"></i> 2022 all rights reserved.</p>
+</body>
+
+<script src="./home.js"></script>
+</html>

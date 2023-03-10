@@ -1,0 +1,172 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition: all .2s linear;
+}
+
+
+:root{
+  --green: #27ae60;
+  --black: #192a56;
+  --light-color: #666;
+  --orange: #ffa500;
+  --box-shadow: 5px 5px rgba(255, 255, 255, 0.2);
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-color);
+    overflow-x: hidden;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 100vh;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 30px;
+}
+
+form .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -50px;
+}
+
+form .logo img{
+    width: 15%;
+    height: 30px;
+    position: relative;
+    right: 20px;
+    border: 1px solid var(--black);
+}
+
+form .logo h1{
+    font-size: 30px;
+    color: var(--black);
+}
+
+
+
+form a{
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+form .new{
+    position: relative;
+    top: -30px;
+    font-size: 15px;
+}
+
+form .new a{
+    color: blue;
+}
+
+form .rights{
+    margin-top:100px;
+    font-size: 17px;
+    align-self: center;
+    opacity: .7;
+}
+
+form .login{
+    align-self: center;
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: var(--black);
+    color: white;
+}
+
+form .forgot{
+    align-self: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+
+label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    height: 40px;
+    margin-top: 50px;
+}
+
+label input{
+ height: 100%;
+ border: transparent;
+ margin-left: 30px;
+}
+
+label input::placeholder{
+    opacity: .5;
+    font-size: 20px;
+}
+
+label i{
+    color: var(--black);
+    border: transparent;
+}
+
+@media (max-width:750px){
+
+    section{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    section form{
+        width: 80%;
+    }
+
+    form label{
+        width: 90%;
+    }
+
+    form label input{
+        width: 100%;
+    }
+
+    form label input::placeholder{
+        font-size: 15px;
+    }
+
+    form .new{
+        width: 95%;
+        font-size: 15px;
+    }
+
+
+}
